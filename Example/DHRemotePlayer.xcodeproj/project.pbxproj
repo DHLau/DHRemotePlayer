@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1329D954B49498D15691E79F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1329D954B49498D15691E79F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		16EA94128F727CB89FE17AEE /* Pods-DHRemotePlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHRemotePlayer_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DHRemotePlayer_Example/Pods-DHRemotePlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5C4E4CDD931F093044D5BD82 /* DHRemotePlayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DHRemotePlayer.podspec; path = ../DHRemotePlayer.podspec; sourceTree = "<group>"; };
+		5C4E4CDD931F093044D5BD82 /* DHRemotePlayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DHRemotePlayer.podspec; path = ../DHRemotePlayer.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DHRemotePlayer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHRemotePlayer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,7 +66,7 @@
 		E2829A4145A8895291ECFBE1 /* Pods-DHRemotePlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHRemotePlayer_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DHRemotePlayer_Example/Pods-DHRemotePlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EB2D8F6EF146567B0586F111 /* Pods-DHRemotePlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHRemotePlayer_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DHRemotePlayer_Tests/Pods-DHRemotePlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EE476F746B65FC458F90870A /* Pods_DHRemotePlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DHRemotePlayer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5A2F07B6FD5A631BE6A4410 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F5A2F07B6FD5A631BE6A4410 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = DHLau;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = UFR9B68S2F;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -524,6 +527,7 @@
 			baseConfigurationReference = 16EA94128F727CB89FE17AEE /* Pods-DHRemotePlayer_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UFR9B68S2F;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DHRemotePlayer/DHRemotePlayer-Prefix.pch";
 				INFOPLIST_FILE = "DHRemotePlayer/DHRemotePlayer-Info.plist";
@@ -539,6 +543,7 @@
 			baseConfigurationReference = E2829A4145A8895291ECFBE1 /* Pods-DHRemotePlayer_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UFR9B68S2F;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DHRemotePlayer/DHRemotePlayer-Prefix.pch";
 				INFOPLIST_FILE = "DHRemotePlayer/DHRemotePlayer-Info.plist";

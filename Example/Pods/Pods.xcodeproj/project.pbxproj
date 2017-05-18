@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03A2DDD77A227D58EE262EBE68281288 /* DHRemotePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AB15A87559FD416626E07E72B6C99885 /* DHRemotePlayer.m */; };
+		09991CFFDAE54832B1D930CE8C6CF70B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		0EBEDF9C81583478908323EFF1BBF3FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		12129C3BEC7B169EB0F6260E7E1002E3 /* DHRemoteResourceLoaderDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D01549BFF006D0D3A2572FEB1D52E1 /* DHRemoteResourceLoaderDelegate.m */; };
+		44F9143001ACA0D0A310D858A5244A44 /* Pods-DHRemotePlayer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B1923F0F08743C332F1B39C9B627E8 /* Pods-DHRemotePlayer_Tests-dummy.m */; };
+		4A2053F8B21DB0495BDF8FAA4CF5B20D /* NSURL+DH.m in Sources */ = {isa = PBXBuildFile; fileRef = 82907E414964A06B445A40E6637DF59F /* NSURL+DH.m */; };
+		545735A6FB242AEA2E66186C1A132CA1 /* Pods-DHRemotePlayer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08AA8B27F9E72DD4AA997282BA9AD1B2 /* Pods-DHRemotePlayer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F57D1287927D6BD97BBF4F1D143C391 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		647C6BFCC87624F0A298F2068D52159B /* DHAudioDownLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A3146965F148ED1A30B09837B97B780 /* DHAudioDownLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		652CEF17C95275E3561A5B1887115811 /* DHRemotePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BD0BCC00494731855B0B64332758DAC /* DHRemotePlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6635325CBE4156956827C1D63C1F6C41 /* DHRemoteAudioFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E01AD658A9B40E5104E19D32401D026 /* DHRemoteAudioFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6775FB7915658DC35A583A1BBBB963C5 /* NSURL+DH.h in Headers */ = {isa = PBXBuildFile; fileRef = 95962DA629BB63C921C496D988B7048B /* NSURL+DH.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69B8F34C16E5CD802818D35511659D65 /* DHRemoteResourceLoaderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C87F725DDF78E3B553F9B3DD297600A6 /* DHRemoteResourceLoaderDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F6E6F1F1E49D8720C2DDDC3F44B4B21 /* DHRemoteAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BD22AD16A6C9769D4FF4B39D4AF982 /* DHRemoteAudioFile.m */; };
+		C03F171245805514A079BDD6B4259C9B /* DHRemotePlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26EFA670439D12147449A46F6E7F4EDA /* DHRemotePlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4A915ADEF18DC385FA27DD1F00DBB94 /* Pods-DHRemotePlayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B56EE259E00656E727E8F216BC23211 /* Pods-DHRemotePlayer_Example-dummy.m */; };
+		CE5E714D6E63F63DC94AD914B018D1CC /* Pods-DHRemotePlayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4813C29874175F1FF37D0F3DFFDA02 /* Pods-DHRemotePlayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E78853FC4E0AD0CF847C8B75C4D94848 /* DHAudioDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDE8C9CF9930F782E44335ECE576450 /* DHAudioDownLoader.m */; };
+		E84473082D311056379D770BE8CB0468 /* DHRemotePlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D6001789A20D0EB6FBFCC64C057A4D /* DHRemotePlayer-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		695C457A4BE9EB02BE84740A3F418A78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60409E9B2A50591D72A7EDD178FAE8BF;
+			remoteInfo = DHRemotePlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		031A606E86D4CC8DBABCD1D6DF003409 /* Pods-DHRemotePlayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DHRemotePlayer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		03D549905CE0D42986ACECA7CDE92F7F /* Pods_DHRemotePlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DHRemotePlayer_Tests.framework; path = "Pods-DHRemotePlayer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08AA8B27F9E72DD4AA997282BA9AD1B2 /* Pods-DHRemotePlayer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DHRemotePlayer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1C3894D96B2E55E3E87B405BB84F65B9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26EFA670439D12147449A46F6E7F4EDA /* DHRemotePlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DHRemotePlayer-umbrella.h"; sourceTree = "<group>"; };
+		2A3146965F148ED1A30B09837B97B780 /* DHAudioDownLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DHAudioDownLoader.h; sourceTree = "<group>"; };
+		2CD230234E8B4B5CA34C90C49F310F46 /* Pods-DHRemotePlayer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DHRemotePlayer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2FB6886FB4DFE673A47A6A205FE2AE21 /* DHRemotePlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DHRemotePlayer-prefix.pch"; sourceTree = "<group>"; };
+		33BD22AD16A6C9769D4FF4B39D4AF982 /* DHRemoteAudioFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DHRemoteAudioFile.m; sourceTree = "<group>"; };
+		368F6A2DEF3F46E7F6A908E075750926 /* DHRemotePlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DHRemotePlayer.xcconfig; sourceTree = "<group>"; };
+		37E2510FB2E54F27F8E47E07FA87934E /* DHRemotePlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DHRemotePlayer.modulemap; sourceTree = "<group>"; };
+		410BF7706D09A9203270807C3B80BABD /* Pods-DHRemotePlayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DHRemotePlayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		43876907DCD607FE3E9989CC6A6C4A04 /* Pods-DHRemotePlayer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DHRemotePlayer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4BD0BCC00494731855B0B64332758DAC /* DHRemotePlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DHRemotePlayer.h; sourceTree = "<group>"; };
+		5141CA8E465B4E4656AB4D82AC1F9CDA /* Pods-DHRemotePlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DHRemotePlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68A31579835187F2784B82775B0CC3A2 /* Pods-DHRemotePlayer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DHRemotePlayer_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6B56EE259E00656E727E8F216BC23211 /* Pods-DHRemotePlayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DHRemotePlayer_Example-dummy.m"; sourceTree = "<group>"; };
+		7BDCF342D816BEBDF22EA82BF8C8CB3D /* Pods-DHRemotePlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DHRemotePlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7DDE8C9CF9930F782E44335ECE576450 /* DHAudioDownLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DHAudioDownLoader.m; sourceTree = "<group>"; };
+		82907E414964A06B445A40E6637DF59F /* NSURL+DH.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSURL+DH.m"; sourceTree = "<group>"; };
+		8BB299BA0D608A9FAD2A60C447361B90 /* DHRemotePlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DHRemotePlayer.framework; path = DHRemotePlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95962DA629BB63C921C496D988B7048B /* NSURL+DH.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSURL+DH.h"; sourceTree = "<group>"; };
+		9A49CA7EAB4AB3DED99AE94C9C57392D /* Pods_DHRemotePlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DHRemotePlayer_Example.framework; path = "Pods-DHRemotePlayer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D554A57A1BE2EEDF2BF05BDD826CEEF /* Pods-DHRemotePlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DHRemotePlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9E01AD658A9B40E5104E19D32401D026 /* DHRemoteAudioFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DHRemoteAudioFile.h; sourceTree = "<group>"; };
+		AAEE75641290206B5C08D9218AD62546 /* Pods-DHRemotePlayer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DHRemotePlayer_Example-resources.sh"; sourceTree = "<group>"; };
+		AB15A87559FD416626E07E72B6C99885 /* DHRemotePlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DHRemotePlayer.m; sourceTree = "<group>"; };
+		ADEB8FABF60A6DF64635CB71CDCC5061 /* Pods-DHRemotePlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DHRemotePlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BBE5FC45C6B31FD15C252766C76AF7E8 /* Pods-DHRemotePlayer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DHRemotePlayer_Example.modulemap"; sourceTree = "<group>"; };
+		BEDB5BD7DA469A8B5F43A394FE388168 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C87F725DDF78E3B553F9B3DD297600A6 /* DHRemoteResourceLoaderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DHRemoteResourceLoaderDelegate.h; sourceTree = "<group>"; };
+		D2D6001789A20D0EB6FBFCC64C057A4D /* DHRemotePlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DHRemotePlayer-dummy.m"; sourceTree = "<group>"; };
+		D7D01549BFF006D0D3A2572FEB1D52E1 /* DHRemoteResourceLoaderDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DHRemoteResourceLoaderDelegate.m; sourceTree = "<group>"; };
+		D8B1923F0F08743C332F1B39C9B627E8 /* Pods-DHRemotePlayer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DHRemotePlayer_Tests-dummy.m"; sourceTree = "<group>"; };
+		DD50DBAEB137FD2EAC1E96F78AF092FF /* Pods-DHRemotePlayer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DHRemotePlayer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		ECA5959F4B94E52AC56840605E251AD2 /* Pods-DHRemotePlayer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DHRemotePlayer_Tests.modulemap"; sourceTree = "<group>"; };
+		F1588BBD9232C2C58DC22ABC8B4B49CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1CE01682E72FD9C061A27B5F24C6E93 /* Pods-DHRemotePlayer_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DHRemotePlayer_Tests-resources.sh"; sourceTree = "<group>"; };
+		FF4813C29874175F1FF37D0F3DFFDA02 /* Pods-DHRemotePlayer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DHRemotePlayer_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B0DD5DE6A8CFD79A078BAFCD1147DB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F57D1287927D6BD97BBF4F1D143C391 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E9AA378C740564FEB90CD916AC2E532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09991CFFDAE54832B1D930CE8C6CF70B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9129DA3F8DA324912E8766A5F0CF05D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EBEDF9C81583478908323EFF1BBF3FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C6F9CB3AFCB10C8BBBDC16FAC631713 /* Pods-DHRemotePlayer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BEDB5BD7DA469A8B5F43A394FE388168 /* Info.plist */,
+				BBE5FC45C6B31FD15C252766C76AF7E8 /* Pods-DHRemotePlayer_Example.modulemap */,
+				410BF7706D09A9203270807C3B80BABD /* Pods-DHRemotePlayer_Example-acknowledgements.markdown */,
+				DD50DBAEB137FD2EAC1E96F78AF092FF /* Pods-DHRemotePlayer_Example-acknowledgements.plist */,
+				6B56EE259E00656E727E8F216BC23211 /* Pods-DHRemotePlayer_Example-dummy.m */,
+				031A606E86D4CC8DBABCD1D6DF003409 /* Pods-DHRemotePlayer_Example-frameworks.sh */,
+				AAEE75641290206B5C08D9218AD62546 /* Pods-DHRemotePlayer_Example-resources.sh */,
+				FF4813C29874175F1FF37D0F3DFFDA02 /* Pods-DHRemotePlayer_Example-umbrella.h */,
+				7BDCF342D816BEBDF22EA82BF8C8CB3D /* Pods-DHRemotePlayer_Example.debug.xcconfig */,
+				ADEB8FABF60A6DF64635CB71CDCC5061 /* Pods-DHRemotePlayer_Example.release.xcconfig */,
+			);
+			name = "Pods-DHRemotePlayer_Example";
+			path = "Target Support Files/Pods-DHRemotePlayer_Example";
+			sourceTree = "<group>";
+		};
+		1CBE59D20936DC605BB62BB0DB8CE0D9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2A3146965F148ED1A30B09837B97B780 /* DHAudioDownLoader.h */,
+				7DDE8C9CF9930F782E44335ECE576450 /* DHAudioDownLoader.m */,
+				9E01AD658A9B40E5104E19D32401D026 /* DHRemoteAudioFile.h */,
+				33BD22AD16A6C9769D4FF4B39D4AF982 /* DHRemoteAudioFile.m */,
+				4BD0BCC00494731855B0B64332758DAC /* DHRemotePlayer.h */,
+				AB15A87559FD416626E07E72B6C99885 /* DHRemotePlayer.m */,
+				C87F725DDF78E3B553F9B3DD297600A6 /* DHRemoteResourceLoaderDelegate.h */,
+				D7D01549BFF006D0D3A2572FEB1D52E1 /* DHRemoteResourceLoaderDelegate.m */,
+				95962DA629BB63C921C496D988B7048B /* NSURL+DH.h */,
+				82907E414964A06B445A40E6637DF59F /* NSURL+DH.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1DB6F4D1CE2A4FA816B938F5BF7CE6E4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C6F9CB3AFCB10C8BBBDC16FAC631713 /* Pods-DHRemotePlayer_Example */,
+				4892C9717A01D3C3954C1B90D38F8005 /* Pods-DHRemotePlayer_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4892C9717A01D3C3954C1B90D38F8005 /* Pods-DHRemotePlayer_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F1588BBD9232C2C58DC22ABC8B4B49CB /* Info.plist */,
+				ECA5959F4B94E52AC56840605E251AD2 /* Pods-DHRemotePlayer_Tests.modulemap */,
+				2CD230234E8B4B5CA34C90C49F310F46 /* Pods-DHRemotePlayer_Tests-acknowledgements.markdown */,
+				43876907DCD607FE3E9989CC6A6C4A04 /* Pods-DHRemotePlayer_Tests-acknowledgements.plist */,
+				D8B1923F0F08743C332F1B39C9B627E8 /* Pods-DHRemotePlayer_Tests-dummy.m */,
+				68A31579835187F2784B82775B0CC3A2 /* Pods-DHRemotePlayer_Tests-frameworks.sh */,
+				F1CE01682E72FD9C061A27B5F24C6E93 /* Pods-DHRemotePlayer_Tests-resources.sh */,
+				08AA8B27F9E72DD4AA997282BA9AD1B2 /* Pods-DHRemotePlayer_Tests-umbrella.h */,
+				5141CA8E465B4E4656AB4D82AC1F9CDA /* Pods-DHRemotePlayer_Tests.debug.xcconfig */,
+				9D554A57A1BE2EEDF2BF05BDD826CEEF /* Pods-DHRemotePlayer_Tests.release.xcconfig */,
+			);
+			name = "Pods-DHRemotePlayer_Tests";
+			path = "Target Support Files/Pods-DHRemotePlayer_Tests";
+			sourceTree = "<group>";
+		};
+		4974D786C3EA5968715A466A3D84D317 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BB299BA0D608A9FAD2A60C447361B90 /* DHRemotePlayer.framework */,
+				9A49CA7EAB4AB3DED99AE94C9C57392D /* Pods_DHRemotePlayer_Example.framework */,
+				03D549905CE0D42986ACECA7CDE92F7F /* Pods_DHRemotePlayer_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70EF21821B296ED78AD8FD3F5E3DA730 /* DHRemotePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				8FD126B4DE24157C9DA9FA7161ED98B8 /* DHRemotePlayer */,
+				A2029FDE3CA283D4FD5142EC0BBB5658 /* Support Files */,
+			);
+			name = DHRemotePlayer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				EAB573EB05630607BE27428A59D0D3A3 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4974D786C3EA5968715A466A3D84D317 /* Products */,
+				1DB6F4D1CE2A4FA816B938F5BF7CE6E4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8FD126B4DE24157C9DA9FA7161ED98B8 /* DHRemotePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				1CBE59D20936DC605BB62BB0DB8CE0D9 /* Classes */,
+			);
+			name = DHRemotePlayer;
+			path = DHRemotePlayer;
+			sourceTree = "<group>";
+		};
+		A2029FDE3CA283D4FD5142EC0BBB5658 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				37E2510FB2E54F27F8E47E07FA87934E /* DHRemotePlayer.modulemap */,
+				368F6A2DEF3F46E7F6A908E075750926 /* DHRemotePlayer.xcconfig */,
+				D2D6001789A20D0EB6FBFCC64C057A4D /* DHRemotePlayer-dummy.m */,
+				2FB6886FB4DFE673A47A6A205FE2AE21 /* DHRemotePlayer-prefix.pch */,
+				26EFA670439D12147449A46F6E7F4EDA /* DHRemotePlayer-umbrella.h */,
+				1C3894D96B2E55E3E87B405BB84F65B9 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DHRemotePlayer";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EAB573EB05630607BE27428A59D0D3A3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70EF21821B296ED78AD8FD3F5E3DA730 /* DHRemotePlayer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		01D9675BEA134505AFEC700EBD14F0B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647C6BFCC87624F0A298F2068D52159B /* DHAudioDownLoader.h in Headers */,
+				6635325CBE4156956827C1D63C1F6C41 /* DHRemoteAudioFile.h in Headers */,
+				C03F171245805514A079BDD6B4259C9B /* DHRemotePlayer-umbrella.h in Headers */,
+				652CEF17C95275E3561A5B1887115811 /* DHRemotePlayer.h in Headers */,
+				69B8F34C16E5CD802818D35511659D65 /* DHRemoteResourceLoaderDelegate.h in Headers */,
+				6775FB7915658DC35A583A1BBBB963C5 /* NSURL+DH.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C0DCD1B7C63BF955331366AC5492FC3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5E714D6E63F63DC94AD914B018D1CC /* Pods-DHRemotePlayer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		355891EA636AE94DA02C9335B2C11098 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545735A6FB242AEA2E66186C1A132CA1 /* Pods-DHRemotePlayer_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		60409E9B2A50591D72A7EDD178FAE8BF /* DHRemotePlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5892F9BEFA12CACBAE9734276A338EDC /* Build configuration list for PBXNativeTarget "DHRemotePlayer" */;
+			buildPhases = (
+				FE2C3A7AA671953D1B91EFECB8A4603A /* Sources */,
+				2B0DD5DE6A8CFD79A078BAFCD1147DB9 /* Frameworks */,
+				01D9675BEA134505AFEC700EBD14F0B0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DHRemotePlayer;
+			productName = DHRemotePlayer;
+			productReference = 8BB299BA0D608A9FAD2A60C447361B90 /* DHRemotePlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C7BC7560B686A63E849EC6B423FB9198 /* Pods-DHRemotePlayer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C7BE563038CE5B4E1ACBB95D9631365 /* Build configuration list for PBXNativeTarget "Pods-DHRemotePlayer_Example" */;
+			buildPhases = (
+				202B5A3B3A38BA3D99882A21EF7575DB /* Sources */,
+				4E9AA378C740564FEB90CD916AC2E532 /* Frameworks */,
+				2C0DCD1B7C63BF955331366AC5492FC3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C884C052B3808F3F0EAC28FEC404775F /* PBXTargetDependency */,
+			);
+			name = "Pods-DHRemotePlayer_Example";
+			productName = "Pods-DHRemotePlayer_Example";
+			productReference = 9A49CA7EAB4AB3DED99AE94C9C57392D /* Pods_DHRemotePlayer_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E651501B41719799CD50263E41914209 /* Pods-DHRemotePlayer_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3004C7EAE5858E1910938656B757BF5 /* Build configuration list for PBXNativeTarget "Pods-DHRemotePlayer_Tests" */;
+			buildPhases = (
+				7FEFCC4B4E4A436A68784A29446E0936 /* Sources */,
+				9129DA3F8DA324912E8766A5F0CF05D5 /* Frameworks */,
+				355891EA636AE94DA02C9335B2C11098 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DHRemotePlayer_Tests";
+			productName = "Pods-DHRemotePlayer_Tests";
+			productReference = 03D549905CE0D42986ACECA7CDE92F7F /* Pods_DHRemotePlayer_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4974D786C3EA5968715A466A3D84D317 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60409E9B2A50591D72A7EDD178FAE8BF /* DHRemotePlayer */,
+				C7BC7560B686A63E849EC6B423FB9198 /* Pods-DHRemotePlayer_Example */,
+				E651501B41719799CD50263E41914209 /* Pods-DHRemotePlayer_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		202B5A3B3A38BA3D99882A21EF7575DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4A915ADEF18DC385FA27DD1F00DBB94 /* Pods-DHRemotePlayer_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FEFCC4B4E4A436A68784A29446E0936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44F9143001ACA0D0A310D858A5244A44 /* Pods-DHRemotePlayer_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE2C3A7AA671953D1B91EFECB8A4603A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E78853FC4E0AD0CF847C8B75C4D94848 /* DHAudioDownLoader.m in Sources */,
+				8F6E6F1F1E49D8720C2DDDC3F44B4B21 /* DHRemoteAudioFile.m in Sources */,
+				E84473082D311056379D770BE8CB0468 /* DHRemotePlayer-dummy.m in Sources */,
+				03A2DDD77A227D58EE262EBE68281288 /* DHRemotePlayer.m in Sources */,
+				12129C3BEC7B169EB0F6260E7E1002E3 /* DHRemoteResourceLoaderDelegate.m in Sources */,
+				4A2053F8B21DB0495BDF8FAA4CF5B20D /* NSURL+DH.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C884C052B3808F3F0EAC28FEC404775F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DHRemotePlayer;
+			target = 60409E9B2A50591D72A7EDD178FAE8BF /* DHRemotePlayer */;
+			targetProxy = 695C457A4BE9EB02BE84740A3F418A78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		141A3B5A63F9180B0A6FEC8761494FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BDCF342D816BEBDF22EA82BF8C8CB3D /* Pods-DHRemotePlayer_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DHRemotePlayer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DHRemotePlayer_Example/Pods-DHRemotePlayer_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DHRemotePlayer_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3420A5DD1EA00AC0D864055F5FA3AF6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D554A57A1BE2EEDF2BF05BDD826CEEF /* Pods-DHRemotePlayer_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DHRemotePlayer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DHRemotePlayer_Tests/Pods-DHRemotePlayer_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DHRemotePlayer_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		443FBC696C98AE76278B17E388A58A16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 368F6A2DEF3F46E7F6A908E075750926 /* DHRemotePlayer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DHRemotePlayer/DHRemotePlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DHRemotePlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DHRemotePlayer/DHRemotePlayer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DHRemotePlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6856F31028287DA47A9522065C3D246C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 368F6A2DEF3F46E7F6A908E075750926 /* DHRemotePlayer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DHRemotePlayer/DHRemotePlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DHRemotePlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DHRemotePlayer/DHRemotePlayer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DHRemotePlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		985966618E72AE90747F6B80D0862F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5141CA8E465B4E4656AB4D82AC1F9CDA /* Pods-DHRemotePlayer_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DHRemotePlayer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DHRemotePlayer_Tests/Pods-DHRemotePlayer_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DHRemotePlayer_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C2B3FF34A6EA44D14F3EBDF6F52B9B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADEB8FABF60A6DF64635CB71CDCC5061 /* Pods-DHRemotePlayer_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DHRemotePlayer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DHRemotePlayer_Example/Pods-DHRemotePlayer_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DHRemotePlayer_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5892F9BEFA12CACBAE9734276A338EDC /* Build configuration list for PBXNativeTarget "DHRemotePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6856F31028287DA47A9522065C3D246C /* Debug */,
+				443FBC696C98AE76278B17E388A58A16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C7BE563038CE5B4E1ACBB95D9631365 /* Build configuration list for PBXNativeTarget "Pods-DHRemotePlayer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				141A3B5A63F9180B0A6FEC8761494FDB /* Debug */,
+				C2B3FF34A6EA44D14F3EBDF6F52B9B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3004C7EAE5858E1910938656B757BF5 /* Build configuration list for PBXNativeTarget "Pods-DHRemotePlayer_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				985966618E72AE90747F6B80D0862F1B /* Debug */,
+				3420A5DD1EA00AC0D864055F5FA3AF6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_DHRemotePlayer_Example {
+  umbrella header "Pods-DHRemotePlayer_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

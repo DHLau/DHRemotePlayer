@@ -1,0 +1,6 @@
+framework module DHRemotePlayer {
+  umbrella header "DHRemotePlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}

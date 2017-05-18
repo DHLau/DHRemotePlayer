@@ -1,0 +1,16 @@
+PODS:
+  - DHRemotePlayer (0.1.0)
+
+DEPENDENCIES:
+  - DHRemotePlayer (from `../`)
+
+EXTERNAL SOURCES:
+  DHRemotePlayer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DHRemotePlayer: 59094bab305a106f5232f8b8691cd8a9a3556ed0
+
+PODFILE CHECKSUM: 8b3a587b7471be91f1b87777144a5f90c44767c3
+
+COCOAPODS: 1.2.1
